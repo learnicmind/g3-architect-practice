@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+/* header */
+header {
+    background-color: rgba(255, 144, 14, 0.1);
+    width: 100%;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+}
+.nav-logo h3{
+    font-size: 45px;
+    color: #131313;
+}
+.nav-menu ul {
+    display: flex;
+    gap: 40px;
+    margin-top: 10px;
+}
+.nav-menu ul li {
+    list-style: none;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    color: #424242;
+    font-size: 18px;
+    text-align: center;
+}
+/* brand */
+.brand {
+    text-align: center;
+}
+.brand-heading {
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.brand-description p{
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    color: #727272;
+    text-align: center;
+}
+.brand-btn {
+    margin-bottom: 20px;
+}
+.btn-primary {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    background-color: #FF900E;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.btn-primary:hover {
+    background-color: #362f26;
+    color: black;
+    border-radius: 8px;
+    border: none;
+    transition: .6s;
+    background: transparent;
+    border: 1px solid #FF900E;
+}
+.brand-image img{
+    width: 1050px;
+    height: auto;
+    padding-bottom: 45px;
+}
+/* header end */
+
+.feature {
+    margin-top: 40px;
+}
+.feature-details {
+    display: flex;
+    justify-content: space-between;
+}
+.feature-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    padding-left: 200px;
+}
+.feature-images img {
+    width: 300px;
+    height: 300px;
+}
+.feature-about {
+    padding-right: 155px;
+    padding-top: 171px;
+}
+.feature-about h1{
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.feature-about p {
+    color: #727272;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+.main {
+    margin-top: 100px;
+    padding-left: 175px;
+}
+.main-head {
+    display: flex;
+}
+.main-description {
+    padding-right: 30px;
+}
+.main-heading {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+.main-info {
+    margin-top: 20px;
+}
+.main-details {
+    padding: 20px;
+    box-shadow: 0.4px 0.4px 16px -8px #727272;
+    border: 1px solid #fff;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.main-details h3 {
+    color: #131313;
+    font-size: 20px;
+    font-weight: 600;
+}
+.main-details p {
+    color: #727272;;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.main-image img {
+    width: 500px;
+    height: 700px;
+}
+.main-image-ex {
+    position: relative;
+    margin-top: -86px;
+    width: 138px;
+    background-color: rgb(255, 144, 14);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.main-exp {
+    font-size: 15px;
+}
+/* end main section */
+
+.fact {
+    margin-top: 150px;
+}
+.fact-details {
+    margin-left: 200px;
+}
+.fact-details h1 {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.fact-details p {
+    color: #727272;
+    font-size: 16px;
+}
+.fact-icons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    text-align: center;
+}
+.fact-elements {
+    border: 1px solid #FF900E;
+    padding: 30px 20px;
+    border-radius: 7px;
+}
+.fact-elements:hover {
+    box-shadow: 0.4px 0.4px 16px -8px #727272;
+    transition: .3s;
+    cursor: pointer;
+}
+/* fact end */
+.sponsors {
+    margin-top: 120px;
+    margin-bottom: 70px;
+}
+.sponsors-heading {
+    text-align: center;
+}
+.sponsors-heading h1 {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.sponsors-heading p {
+    color:  #727272;
+    font-size: 16px;
+    font: 400;
+}
+.sponsors-logo {
+    margin-top: 100px;
+}
+.sponsors-logo-img{
+    margin: 0 150px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+/* sponsors end */
+
+footer {
+    border-radius: 8px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF4E7;
+}
+footer p {
+    color:#362f26;
+    padding: 20px 50px;
+}
+
+/* footer end */
+
+/* media query */
+
+
+@media screen and (max-width: 576px) {
+    .nav {
+        padding: 30px;
+    }
+    .nav-logo h3{
+        font-size: 35px;
+    }
+    .nav-menu ul {
+        display: none;
+    }
+    .brand{
+        padding: 0 30px;
+    }
+    .brand-heading {
+        font-size: 35px;
+    }
+    .brand-image img{
+        width: 90vw;
+    }
+    main{
+        padding: 30px;
+    }
+    .feature-details {
+        flex-direction: column-reverse;
+    }
+    .feature-images {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 30px;
+    }
+    .feature-about {
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+    .feature-about h1{
+        font-size: 35px;
+    }
+    .main {
+        margin-top: 30px;
+        padding-left: 0px;
+    }
+    .main-head {
+        flex-direction: column;
+    }
+    .main-description {
+        padding-right: 0px;
+    }
+    .main-image img {
+        padding-left: 50px;
+        padding-top: 30px;
+        width: 85vw;
+        height: auto;
+    }
+    .fact {
+        margin-top: 50px;
+    }
+    .fact-details {
+        margin-left: 30px;
+        text-align: center;
+    }
+    .fact-icons {
+        margin-top: 50px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .sponsors-logo {
+        margin-top: 50px;
+    }
+    .sponsors-logo-img{
+        padding: 30px;
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+        justify-content: center;
+        align-items: center; 
+}
+}
